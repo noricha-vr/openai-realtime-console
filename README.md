@@ -10,16 +10,16 @@ Before you begin, you'll need an OpenAI API key - [create one in the dashboard h
 cp .env.example .env
 ```
 
-Running this application locally requires [Node.js](https://nodejs.org/) to be installed. Install dependencies for the application with:
+Running this application locally requires [Node.js](https://nodejs.org/) and [Bun](https://bun.sh/) to be installed. Install dependencies for the application with:
 
 ```bash
-npm install
+bun install
 ```
 
 Start the application server with:
 
 ```bash
-npm run dev
+bun run dev
 ```
 
 This should start the console application on [http://localhost:3000](http://localhost:3000).
